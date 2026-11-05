@@ -1,0 +1,12 @@
+* text=auto
+
+# Windows scripts must keep CRLF or cmd.exe / PowerShell 5 can misbehave
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+*.cs text eol=crlf
+*.manifest text eol=crlf
+
+*.png binary
+*.ico binary
